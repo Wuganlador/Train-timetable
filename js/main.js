@@ -115,7 +115,7 @@
         var trainCode = $(this).attr("data-no");
         
         if(isAjax) return;
-        isAjax=true
+        isAjax=true;
 
         $.get(urlPre + url3,
                 {
