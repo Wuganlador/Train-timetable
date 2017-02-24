@@ -1,5 +1,8 @@
- // var urlPre = "http://www.corsproxy.com/"; //跨域中转
-    var urlPre = "http://cors.itxti.net/?";
+    // var urlPre = "http://www.corsproxy.com/"; //跨域中转
+    //http远程代理
+    //  var urlPre = "http://cors.itxti.net/?";
+    //https远程代理
+    var urlPre = "https://bird.ioliu.cn/v1/?url=";
     
     // 提供站点，查询 站点
     var url1 = "ws.webxml.com.cn/WebServices/TrainTimeWebService.asmx/getStationAndTimeByStationName?UserID=";
